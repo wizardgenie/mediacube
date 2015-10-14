@@ -25,9 +25,9 @@
 
 <addon id="repository.mediacube" name="MediaCube Repository" version="1.0" provider-name="mediacube">
 	<extension point="xbmc.addon.repository" name="MediaCube Repository">
-		<info compressed="false">https://archive.org/download/addons.xml/addons.xml</info>
-		<checksum>https://archive.org/download/addons.xml/addons.xml.md5</checksum>
-		<datadir zip="true">https://archive.org/download/addons.xml/</datadir>
+		<info compressed="false">https://raw.githubusercontent.com/wizardgenie/mediacube/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/wizardgenie/mediacube/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/wizardgenie/mediacube/master/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>MediaCube Repository</summary>
