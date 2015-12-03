@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.mediacube" name=" MediaCube Wizard"  provider-name="mediacube" version="0.7">
+<addon id="plugin.program.mediacube" name=" MediaCube Wizard"  provider-name="mediacube" version="0.8">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.addon.common" version="2.0.0"/>
@@ -13,11 +13,5 @@
 	<description>Media Cube Update Wizard - Keep your Media Cube up-to-date with the latest build, add-ons and features.</description>
     <ref>389e2acd7c9ffae36b018daff7608142</ref>
     <platform>all</platform>
-  </extension>
-  <extension point="xbmc.addon.repository"
-              name="MediaCube Repository">
-	<info compressed="false">http://mediacube.x10host.com/repo/addons.xml</info>
-	<checksum>http://mediacube.x10host.com/repo/addons.xml.md5</checksum>
-	<datadir zip="true">http://mediacube.x10host.com/repo/</datadir>
   </extension>
 </addon>
